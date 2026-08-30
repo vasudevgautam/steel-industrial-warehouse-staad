@@ -1,128 +1,72 @@
-Steel Industrial Warehouse --- STAAD.Pro Structural Design
+# Steel Industrial Warehouse Structural Design — STAAD.Pro
 
-A structural analysis and steel design project for an industrial
-warehouse developed and checked using STAAD.Pro and IS 800 steel
-design provisions.
+## Project Overview
 
-Project Overview
+This project presents the structural analysis and steel design of an industrial warehouse structure developed using **STAAD.Pro** in accordance with **IS 800** steel design provisions.
 
-This project covers the structural modelling, analysis, and steel member
-design of an industrial warehouse structure in STAAD.Pro.
+The project involved structural modelling, analysis verification, steel member design, identification of critical members, section refinement, and final design verification.
 
-The model was iteratively refined based on the steel design utilization
-ratios reported by STAAD.Pro. Failed members were identified,
-appropriate member sections were redefined, and the model was re-run
-until the final steel design check passed.
+## Software & Standards
 
-Software & Standards
+- **Software:** STAAD.Pro
+- **Design Code:** IS 800
+- **Structural System:** Steel Industrial Warehouse
+- **Analysis:** 3D Structural Analysis
+- **Design:** Steel Member Design
+- **Section Database:** Indian Steel Sections
 
-STAAD.Pro --- Structural analysis and steel design
+## Key Responsibilities
 
-Design standard: IS 800
+- Developed and reviewed the 3D structural model in STAAD.Pro.
+- Defined member properties, supports, loading conditions, and load combinations.
+- Performed structural analysis and reviewed analysis results.
+- Conducted steel design checks according to IS 800.
+- Evaluated member utilization ratios using `RATIO (ACT./ALLOW.)`.
+- Identified members exceeding the allowable utilization ratio.
+- Investigated failures governed by member slenderness.
+- Revised critical member sections based on the design results.
+- Corrected STAAD.Pro member-property assignments and section database issues.
+- Re-ran analysis and steel design after each modification.
+- Verified the final model with all reported steel design checks passing.
 
-Section database: Indian steel sections
+## Design Optimization Process
 
-Analysis type: 3D structural analysis
+The structural design was completed through an iterative design-verification process:
 
-Design check: Steel member strength/slenderness and utilization
-ratio
+1. Created the initial STAAD.Pro structural model.
+2. Performed structural analysis.
+3. Reviewed the steel design output.
+4. Identified members with utilization ratios greater than `1.000`.
+5. Investigated the governing design clauses and slenderness failures.
+6. Revised the sections of critical members.
+7. Corrected duplicate member-property assignments and unavailable section definitions.
+8. Re-ran the analysis and steel design.
+9. Verified the final design results.
+10. Achieved passing steel design checks for the final model.
 
-Key Work Performed
+## Critical Design Considerations
 
-Developed and reviewed the STAAD.Pro structural model.
+The initial design contained several members with utilization ratios greater than the allowable value of `1.000`.
 
-Verified the analysis model before steel design refinement.
+The major governing issue was **member slenderness**, particularly for critical pillar/column members.
 
-Reviewed steel design output and identified members with utilization
-ratios greater than 1.0.
+The member sections were progressively refined based on the STAAD.Pro design output until the final design satisfied the required steel design checks.
 
-Investigated member failures, including slenderness-controlled
-design checks.
+## Final Result
 
-Revised member sections for the critical members.
+The final STAAD.Pro model was successfully analyzed and checked for steel design.
 
-Corrected STAAD.Pro member-property assignments and section-database
-issues.
+**Final result: All reported steel member design checks passed with utilization ratios within the allowable limit.**
 
-Re-ran the steel design after each revision.
+## Project Files
 
-Achieved a final model in which the reported steel design checks
-passed.
-
-Design Refinement Process
-
-The project followed an iterative engineering workflow:
-
-Structural analysis
-
-Reviewed the analysis results and model behaviour.
-
-Initial steel design
-
-Checked member utilization ratios against the allowable ratio.
-
-Failure identification
-
-Located members with RATIO (ACT./ALLOW.) > 1.000.
-
-Section optimization
-
-Increased/redefined sections for the governing members.
-
-Model correction
-
-Removed duplicate property assignments and corrected unavailable
-section-table definitions.
-
-Final verification
-
-Re-ran STAAD.Pro steel design and confirmed the final design
-checks passed.
-
-Representative Design Issue
-
-The critical members initially exceeded the allowable utilization ratio,
-with several failures governed by the SLENDERNESS check.
-
-The final refinement focused on the governing pillar/column members
-while avoiding unnecessary changes to the entire structural model.
-
-Repository Contents
-
-Suggested repository structure:
-
+```text
 steel-industrial-warehouse-staad/
+│
 ├── README.md
 ├── STAAD_FINAL_PILLAR_REDESIGN.std
+│
 └── screenshots/
+    ├── staad-model.png
     ├── analysis-results.png
     └── final-steel-design.png
-
-Result
-
-The final STAAD.Pro model was successfully re-run after member-section
-refinement, and the steel design checks passed.
-
-Resume Description
-
-Steel Industrial Warehouse Structural Design --- STAAD.Pro
-
-Designed and analyzed an industrial warehouse structure using
-STAAD.Pro and IS 800.
-
-Evaluated steel member utilization ratios and identified governing
-slenderness failures.
-
-Iteratively redefined critical member sections and corrected
-STAAD.Pro property/database issues.
-
-Verified the final model through repeated analysis and steel design
-checks, achieving passing utilization ratios.
-
-Note
-
-This repository is intended as a portfolio/academic engineering
-project demonstrating structural modelling, steel design verification,
-troubleshooting, and iterative section refinement in STAAD.Pro. Final
-structural adequacy for construction should be independently reviewed
-and approved by the responsible structural engineer.
