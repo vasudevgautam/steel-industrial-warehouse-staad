@@ -5,6 +5,16 @@
 This project presents the structural analysis and steel design of an industrial warehouse structure developed using **STAAD.Pro** in accordance with **IS 800** steel design provisions.
 
 The project involved structural modelling, analysis verification, steel member design, identification of critical members, section refinement, and final design verification.
+## design
+<img width="1243" height="688" alt="image" src="https://github.com/user-attachments/assets/aa081cc5-2bd7-4838-83ab-1f92da431c13" />
+<img width="877" height="717" alt="image" src="https://github.com/user-attachments/assets/25cd7273-a86a-490f-b1ef-f4db8bafb38b" />
+<img width="881" height="732" alt="image" src="https://github.com/user-attachments/assets/2f7d2c60-a2f4-4a4e-9197-7dc87e520f32" />
+<img width="887" height="725" alt="image" src="https://github.com/user-attachments/assets/67ef78a0-e9fe-4a5c-80b7-70baede6ebd8" />
+<img width="887" height="760" alt="image" src="https://github.com/user-attachments/assets/557deebb-60ad-4a44-8b00-422637b7d50e" />
+
+<img width="787" height="717" alt="image" src="https://github.com/user-attachments/assets/6d4ab0d5-79db-4f69-ba4b-f0aad5fe70a0" />
+
+
 
 ## Software & Standards
 
